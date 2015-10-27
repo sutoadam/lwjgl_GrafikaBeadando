@@ -1,17 +1,17 @@
-package renderteszt;
+package minecraft;
 
 import org.lwjgl.LWJGLException;
 import org.lwjgl.opengl.Display;
 import org.lwjgl.opengl.DisplayMode;
 import static org.lwjgl.opengl.GL11.*;
 
-public class RenderTeszt {
+public class Boot {
 
-	public RenderTeszt() {
+	public Boot() {
 		//létrehozom az ablakot
 		try {
 			Display.setDisplayMode(new DisplayMode(640, 480));
-			Display.setTitle("Hello LWJGL!");
+			Display.setTitle("Minecraft 2D");
 			Display.create();
 		} catch (LWJGLException e) {
 			// TODO Auto-generated catch block
@@ -51,7 +51,7 @@ public class RenderTeszt {
 	}
 	
 	public static void main(String[] args) {
-		new RenderTeszt();
+		new Boot();
 
 	}
 

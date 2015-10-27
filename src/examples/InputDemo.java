@@ -1,4 +1,4 @@
-package input_teszt;
+package examples;
 
 import org.lwjgl.LWJGLException;
 import org.lwjgl.input.Keyboard;
