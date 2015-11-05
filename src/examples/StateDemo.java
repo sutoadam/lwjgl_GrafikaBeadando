@@ -64,6 +64,7 @@ public class StateDemo {
 	}
 	
 	private void checkInput(){
+		System.out.println(state.toString());
 		switch(state){
 		case INTRO:
 			if(Keyboard.isKeyDown(Keyboard.KEY_S)){
